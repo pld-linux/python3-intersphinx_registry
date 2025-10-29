@@ -1,6 +1,6 @@
-
 %define 	module	intersphinx_registry
 Summary:	Convenient utilities and data to write a sphinx config file
+Summary(pl.UTF-8):	Wygodne narzędzia i dane do zapisu pliku konfiguracyjnego Sphinksa
 Name:		python3-%{module}
 Version:	0.2501.23
 Release:	1
@@ -22,6 +22,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Convenient utilities and data to write a sphinx config file.
+
+%description -l pl.UTF-8
+Wygodne narzędzia i dane do zapisu pliku konfiguracyjnego Sphinksa.
 
 %prep
 %setup -q -n %{module}-%{version}
